@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    
+    <body style='margin : 0px; overflow: hidden;'></body>
+
+    <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
+
+      <a-marker id="animated-marker" type="pattern" preset="custom" url="https://cdn.glitch.com/088802b3-a07d-4954-aaaf-fa8a8116a31e%2Fmarker.patt?v=1623121448348"
+        raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerA"> 
+
+        <a-entity gltf-model="assets/Model-3D/Unicorn.glb" scale="00.50 00.50 00.50"  crossOrigin="anonymous" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"></a-entity>
+      </a-marker>
+
+        <a-entity camera></a-entity>
+
+    </a-scene>
+
+  </body>
+</html>
+
