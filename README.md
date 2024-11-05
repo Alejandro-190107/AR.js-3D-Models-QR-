@@ -23,6 +23,6 @@ This web application will allow you to view some 3D models through Augmented Rea
 
 ## <p align="left" style="color: #f48fb1;"> Screenshot Project 💻 </p>
 
-🔶 [Project Website](https://alejandro-lopez.futuretecware.com/AR.js-3D-Models-QR/index.html)
+🔶 [Project Website](https://alejandro-190107.github.io/AR.js-3D-Models-QR-/)
 
 ![Screenshot](assets/img/Screenshot.png)
